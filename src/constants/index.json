@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué es Dart?",
+      "answers": {
+        "a": "Lenguaje de programación",
+        "b": "Lenguaje de programación",
+        "c": "Lenguaje de programación",
+        "d": "Lenguaje de programación"
+      },
+      "result": "a"
+    }
+  ]
+}
