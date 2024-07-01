@@ -34,7 +34,8 @@ export const getAllQuizzes = async (req, res) => {
       _id: quiz._id,
       question: quiz.question,
       answers: quiz.answers,
-      result: `${quiz.result}: ${quiz.answers[quiz.result]}`,
+      result: quiz.result,
+      resultAnswer: quiz.answers[quiz.result],
     }));
 
     const response = {
